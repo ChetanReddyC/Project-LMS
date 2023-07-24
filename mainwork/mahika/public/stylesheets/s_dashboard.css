@@ -1,0 +1,1229 @@
+/* font import links*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@350&display=swap');
+
+*{
+    margin: 0;
+    padding: 0%;
+    transition: 900ms;
+        background:
+        linear-gradient(red, transparent),
+        linear-gradient(to bottom right, #E4B06E, transparent),
+        radial-gradient(circle at center, #ff2626,transparent),
+        linear-gradient(to top left, #3a00e8, transparent);
+    background-blend-mode: screen;    
+    
+}
+.topbar{
+    height: 100vh; 
+    width: 160px; 
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.784);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    position: fixed;
+    left: -10px;
+    top: 0; 
+    z-index: 9999; 
+    background-color:rgba(4, 4, 51, 0.779);
+}
+.studentname{
+    font-size:20px;
+    background: none;
+    font-family: 'Montserrat';
+    position: absolute;
+    left: 90%;
+    top: 2%;
+}
+.organizationimage{
+    border: 1px solid white;
+    height: 10vh;
+    width: 5vw;
+    background: none;
+    border-radius: 15px;
+    position: absolute;
+    left: 10%;
+    top: 4%;
+
+}
+.organizationname{
+    font-size: 35px;
+    background: none;
+    position: absolute;
+    left: 16%;
+    top: 6%;
+    font-family: 'Montserrat';
+}
+.mainbox{
+    border: 1px solid white;
+    height: 72vh;
+    width: 83vw;
+    border-radius: 4vh;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    position: absolute;
+    top: 150px;
+    left: 210px;
+    background-color:rgba(4, 4, 51, 0.779);
+    
+}
+ 
+.backgroundphoto{
+    height: 30%;
+    width: 69%;
+    position: absolute;
+    top: 180px;
+    left: 20px;
+    border-radius: 20px;
+}
+.golive{
+    position: absolute;
+    top: 160px;
+    left:50px;
+    font-size:clamp(2vh,2.3vh,7vh);
+    color: whitesmoke;
+    background: none;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
+.videoicon{
+    width: 65px;
+    background: none;
+}
+.videoicon:hover{
+    border-color: blueviolet;
+}
+
+.fa-solid.fa-video:hover{
+    box-shadow:0px 0px 100px rgb(28, 17, 187);
+    background: none;
+}
+.atagforvideo{
+    background: none;
+    font-size: 0.5%;
+    position: absolute;
+    top: 90px;
+    left:52px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.fa-solid.fa-layer-group{
+    font-size: 5vh;
+    background: none;
+    color: whitesmoke;
+    cursor: pointer;
+    position: absolute;
+}
+.fa-solid.fa-layer-group:hover{
+    box-shadow:0px 0px 100px rgb(28, 17, 187);
+}
+.Schedules{
+    position: absolute;
+    top: 38%;
+    left:35px;
+    font-size:clamp(2vh,2.3vh,7vh);
+    color: whitesmoke;
+    background: none;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
+.Scheduleicon{
+    width: 65px;
+    background: none;
+}
+.fa-solid.fa-graduation-cap{
+    font-size: 5vh;
+    position: absolute;
+    left: 43%;
+    background: none;
+    color: whitesmoke;
+    cursor: pointer;
+
+}
+.courseicon{
+    width: 65px;
+    background: none;
+}
+.fa-solid.fa-graduation-cap:hover{
+    box-shadow:0px 0px 100px rgb(28, 17, 187);
+}
+.courses{
+    position: absolute;
+    top: 380px;
+    left:50px ;
+    font-size:clamp(2vh,2.3vh,7vh);
+    color: whitesmoke;
+    background: none;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
+
+.assingmenticon{
+    width: 55px;
+    background: none;
+}
+.assignments{
+    position: absolute;
+    top: 490px;
+    left:30px;
+    font-size:clamp(2vh,2.3vh,7vh);
+    color: whitesmoke;
+    background: none;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
+.atagforassignment{
+    font-size: 40px;
+    position: absolute;
+    top: 430px;
+    left:52px ;
+    background: none;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.myprofile{
+    position: absolute;
+    top: 590px;
+    left:50px;
+    font-size:clamp(2vh,2.3vh,7vh);
+    background: none;
+    color: whitesmoke;
+    cursor: pointer;
+    font-family: 'Montserrat';
+}
+.Studentdetailss{
+    border: 1px solid black;
+    background: none;
+    height: 15vh;
+    width: 8vw;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
+.studentdetails{
+    display: block;
+    background: none;
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    
+}
+.details{
+    padding-top: 15%;
+    display: flex;
+    color: whitesmoke;
+    font-family: 'Montserrat';
+    background: none;
+}
+.onetoone{
+    position: absolute;
+      left: 0.3vi;
+      top: 0.5%;
+      width: 41vw;
+      height: 71vh;
+      border: 1px solid whitesmoke;
+      background: none;
+      border-radius: 4vh;
+      transform: translateY(110%);
+      visibility: hidden;
+      border:1px solid rgba(255, 255, 255, 0.18);
+      box-shadow: 0px 0px 10px rgba(28, 17, 187, 0.507);
+}
+.onetoone.show{
+    transform: translateY(0);
+    visibility: visible;
+}
+.onetooneheading{
+    background: none;
+    font-size: 120%;
+    color: whitesmoke;
+    font-family: 'Montserrat';
+    position: absolute;
+    left: 31%;
+    top: 0.2%;
+}
+
+.group{
+     position: absolute;
+      top: 0;
+      left: 41.6vi;
+      top: 0.5%;
+      width: 41vw;
+      height: 71vh;
+      border: 1px solid whitesmoke;
+      background: none;
+      border-radius: 4vh;
+      transform: translateY(460%);
+      visibility: hidden;
+      border:1px solid rgba(255, 255, 255, 0.18);
+      box-shadow: 0px 0px 10px rgba(28, 17, 187, 0.507);
+}
+.groupheading{
+    background: none;
+    font-size: 120%;
+    color: whitesmoke;
+    font-family:'Montserrat';
+    position: absolute;
+    left: 36%;
+    top: 0.2%;
+}
+.group.show{
+    transform: translateY(0);
+    visibility: visible;
+}
+.onetooneicon{
+    background: none;
+    width: 7vw;
+    cursor: pointer;
+    position: absolute;
+    top: 35%;
+    left: 26%;
+}
+.arrowicon{
+    background: none;
+    width: 4.5vw;
+    cursor: pointer;
+    position: absolute;
+    top: 39%;
+    left: 42%;
+}
+.onetooneicon1{
+    background: none;
+    width: 7vw;
+    cursor: pointer;
+    position: absolute;
+    top: 35%;
+    left: 55%;
+}
+
+.groupicon{
+    background: none;
+    width: 7vw;
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    left: 28%;
+}
+.groupicon1{
+    background: none;
+    width: 7vw;
+    cursor: pointer;
+    position: absolute;
+    top: 15%;
+    left: 57.5%;
+}
+.arrowicon1{
+    background: none;
+    width: 5vw;
+    cursor: pointer;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+}
+.groupicon2{
+    background: none;
+    width: 7vw;
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    left: 67%;
+}
+.groupicon3{
+    background: none;
+    width: 7vw;
+    cursor: pointer;
+    position: absolute;
+    top: 72%;
+    left: 56%;
+}
+.timetable{
+    position: absolute;
+      left: 0.3vi;
+      top: 0.5%;
+      width: 41vw;
+      height: 71vh;
+      border: 1px solid whitesmoke;
+      background: none;
+      border-radius: 4vh;
+      transform: translateY(110%);
+      visibility: hidden;
+      border:1px solid rgba(255, 255, 255, 0.18);
+      box-shadow: 0px 0px 10px rgba(28, 17, 187, 0.507);
+}.timetable.show{
+    transform: translateY(0);
+    visibility: visible;
+}
+.calender{
+    position: absolute;
+      top: 0;
+      left: 41.6vi;
+      top: 0.5%;
+      width: 41vw;
+      height: 71vh;
+      border: 1px solid whitesmoke;
+      background: none;
+      border-radius: 4vh;
+      transform: translateY(180%);
+      visibility: hidden;
+      border:1px solid rgba(255, 255, 255, 0.18);
+      box-shadow: 0px 0px 10px rgba(28, 17, 187, 0.507);
+}
+.calender.show{
+    transform: translateY(0);
+    visibility: visible;
+}
+.calendericon{
+    width: 60px;
+    background: none;
+    position: absolute;
+    left: 45%;
+    border: none;
+}
+.atagforshedules{
+    font-size: 40px;
+    position: absolute;
+    top: 210px;
+    left:47px;
+    background: none;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.videocourses {
+    position: absolute;
+    left: 5px;
+    top: 0.3vi;
+    width: 58vw;
+    height: 33vh;
+    border: 1px solid whitesmoke;
+    background: none;
+    border-radius: 4vh;
+    transform: translateY(240%);
+    visibility: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0px 0px 10px rgba(28, 17, 187, 0.507);
+    animation: slide-in 0.5s ease-in-out;
+    overflow: hidden;
+    
+  }
+
+  .video-container{
+    display: flex;
+    flex-wrap: wrap;
+    background: none;
+    position: absolute;
+    top: 9%;
+  }
+ 
+  .video-container > div{
+    flex: 1;
+  }
+  .flex-videos{
+    border-radius: 2vh;
+    border: 1px solid black;
+    margin: 10px; 
+    padding: 35px;
+    background:none;
+    border: 1px solid whitesmoke;
+    transition: 900ms;
+    transition-delay: 1s;
+    background-blend-mode: screen;
+    transform: translateY(260%);
+    
+  }
+  .flex-videos.show{
+    transform: translateY(0);
+    
+  }
+  .flex-videos:hover{
+    box-shadow: 0px 0px 15px white;
+  }
+
+  #expand {
+    position: absolute;
+    left: 94%;
+    top: 77%;
+    font-size: 2vh;
+    background-color: none;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    cursor: pointer;
+    border-radius: 1.5vh;
+    padding: 0.6vh;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    transition: none;
+    font-family:'Montserrat';
+  }
+  .expandicon{
+    background: none;
+    width: 30px;
+  }
+  #close {
+    position: absolute;
+    left: 95%;
+    top: 3%;
+    font-size: 2vh;
+    color: whitesmoke;
+    background-color: none;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    cursor: pointer;
+    border-radius: 1.5vh;
+    padding: 0.8vh;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    transition: none;
+    font-family:'Montserrat';
+    letter-spacing: 1px;
+  }
+    
+.videocourses.show{
+    transform: translateY(0);
+    visibility: visible;
+}
+
+.videocourses.fullview{
+    position: absolute;
+    height: 68.4vh;
+    width: 82vw;
+    border-radius: 4vh;
+    border: 1px solid whitesmoke;
+    background: none;
+    border-radius: 4vh;
+    visibility: visible;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0px 0px 10px rgba(28, 17, 187, 0.507);
+    transition: 900ms;
+    position: absolute;
+    top: 10px;
+    overflow-y: scroll;
+}
+.videocoursesheading{
+    background: none;
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: 'Montserrat';
+    position: absolute;
+    left: 43%;
+    top: 10px;
+}
+.mylibrary{
+    position: absolute;
+      left: 0.5%;
+      top: 49%;
+      bottom: 1vi;
+      width: 58vw;
+      height: 35.3vh;
+      border: 1px solid whitesmoke;
+      background: none;
+      border-radius: 4vh;
+      transform: translateY(380%);
+      visibility: hidden;
+      border:1px solid rgba(255, 255, 255, 0.18);
+      box-shadow: 0px 0px 10px rgba(28, 17, 187, 0.507);
+      overflow: hidden;
+}
+.Library-container {
+    display: flex;
+    align-items: start;
+    background: none;
+    position: absolute;
+    top: 10%; 
+    right:34%;
+    transform: translate(-50%, -50%) rotate(90deg);
+    flex-direction:column-reverse;
+    transform-origin: left;
+    gap: 0.5vi;
+  }
+
+.books {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid whitesmoke;
+    padding: 5%;
+    border-radius: 2vh;
+    background: none;
+    font-family: "Oswald";
+    width: 13vw;
+    height: 9vh;
+    color: whitesmoke;
+    font-size: 8vh;
+    cursor: pointer;
+    letter-spacing: 8px;
+    transform: translateY(500%); 
+}
+ .books.show{
+    transform: translateY(0);
+    visibility: visible;
+    transition-delay: 1s;
+} 
+.books:hover{
+    transform: scale(0.9);
+    transition:900ms;
+}
+.mylibrary.fullview{
+    position: absolute;
+    height: 68.4vh;
+    width: 82vw;
+    border-radius: 4vh;
+    border: 1px solid whitesmoke;
+    background: none;
+    border-radius: 4vh;
+    visibility: visible;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0px 0px 10px rgba(28, 17, 187, 0.507);
+    transition: 900ms;
+    position: absolute;
+    top: 10px;
+}
+.mylibrary.show{
+    transform: translateY(0);
+    visibility: visible;
+}
+#expandlibrary{
+    position: absolute;
+    left: 94%;
+    top: 78%;
+    font-size: 2vh;
+    color: whitesmoke;
+    background-color: none;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    cursor: pointer;
+    border-radius: 1.5vh;
+    padding: 0.8vh;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: none;
+    font-family:'Montserrat';
+  }
+  #closelibrary{
+    position: absolute;
+    left: 45%;
+    top: 90%;
+    font-size: 2vh;
+    color: whitesmoke;
+    background-color: none;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    cursor: pointer;
+    border-radius: 1.5vh;
+    padding: 0.8vh;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    transition: none;
+    font-family:'Montserrat';
+    letter-spacing: 1px;
+  }
+.writenotes{
+    position: absolute;
+      left: 71.3%;
+      top: 1%;
+      width: 28.4%;
+      height: 97.8%;
+      border: 1px solid whitesmoke;
+      background: none;
+      border-radius: 20px;
+      visibility: hidden;
+      transform: translateY(180%);
+      border:1px solid rgba(255, 255, 255, 0.18);
+      box-shadow: 0px 0px 10px rgba(28, 17, 187, 0.507);
+}
+.writenotes.show{
+    transform: translateY(0);
+    visibility: visible;
+}
+.atagforcourses{
+    font-size: 40px;
+    position: absolute;
+    top: 320px;
+    left:52px;
+    background: none;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.analysisreport{
+    position: absolute;
+      left: 0.5%;
+      top: 1%;
+      width: 58vw;
+      height: 33vh;
+      border: 1px solid whitesmoke;
+      background: none;
+      border-radius: 4vh;
+      transform: translateY(240%);
+      visibility: hidden;
+      border:1px solid rgba(255, 255, 255, 0.18);
+      box-shadow: 0px 0px 10px rgba(28, 17, 187, 0.507);
+}
+.analysisreport.show{
+    transform: translateY(0);
+    visibility: visible;
+}
+.analysisreport.fullview{
+    position: absolute;
+    height: 68.4vh;
+    width: 82vw;
+    border-radius: 4vh;
+    border: 1px solid whitesmoke;
+    background: none;
+    border-radius: 4vh;
+    visibility: visible;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0px 0px 10px rgba(28, 17, 187, 0.507);
+    transition: 900ms;
+    position: absolute;
+    top: 10px;
+}
+#expandanalysisreport{
+    position: absolute;
+    left: 94%;
+    top: 77%;
+    font-size: 2vh;
+    color: whitesmoke;
+    background-color: none;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    cursor: pointer;
+    border-radius: 1.5vh;
+    padding: 0.8vh;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: none;
+    font-family:'Montserrat';
+}
+#closeanalysisreport{
+    position: absolute;
+    left: 45%;
+    top: 90%;
+    font-size: 2vh;
+    color: whitesmoke;
+    background-color: none;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    cursor: pointer;
+    border-radius: 1.5vh;
+    padding: 0.8vh;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    transition: none;
+    font-family:'Montserrat';
+    letter-spacing: 1px;
+}
+.examscores{
+    position: absolute;
+      left: 5px;
+      top: 48%;
+      width: 70%;
+      height: 50%;
+      border: 1px solid whitesmoke;
+      background: none;
+      border-radius: 20px;
+      transform: translateY(380%);
+      visibility: hidden;
+      border:1px solid rgba(255, 255, 255, 0.18);
+      box-shadow: 0px 0px 10px rgba(28, 17, 187, 0.507);
+      overflow: hidden;
+}
+.examscores.show{
+    transform: translateY(0);
+    visibility: visible;
+}
+.scores-container {
+    position: absolute;
+    top: 12%;
+    left: 2.5%;
+    display: block;
+    align-items: start;
+    width: 55vw;
+    background: none;
+}
+.scores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0px 0px 10px rgba(28, 17, 187, 0.507);
+    color: whitesmoke;
+    font-family: "oswald";
+    letter-spacing: 5px;
+    background: none;
+    margin-top: 1%;
+    border-radius: 10px;  
+    transform: translateY(550%);
+    
+    
+}
+.scores.show{
+    transform: translateY(0);
+    transition-delay: 1s;
+}
+.examscores.fullview{
+    position: absolute;
+    height: 68.4vh;
+    width: 82vw;
+    border-radius: 4vh;
+    border: 1px solid whitesmoke;
+    background: none;
+    border-radius: 4vh;
+    visibility: visible;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0px 0px 10px rgba(28, 17, 187, 0.507);
+    transition: 900ms;
+    position: absolute;
+    top: 10px;
+}
+#expandexamscores{
+    position: absolute;
+    left: 94%;
+    top: 77%;
+    font-size: 2vh;
+    color: whitesmoke;
+    background-color: none;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    cursor: pointer;
+    border-radius: 1.5vh;
+    padding: 0.8vh;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: none;
+    font-family:'Montserrat';
+}
+#closeexamscores{
+    position: absolute;
+    left: 45%;
+    top: 90%;
+    font-size: 2vh;
+    color: whitesmoke;
+    background-color: none;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    cursor: pointer;
+    border-radius: 1.5vh;
+    padding: 0.8vh;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: none;
+    font-family:'Montserrat';
+    letter-spacing: 1px;
+}
+.examschedule{
+    position: absolute;
+      left: 71%;
+      top: 5px;
+      width: 23.5vw;
+      height: 70vh;
+      border: 1px solid whitesmoke;
+      background: none;
+      border-radius: 20px;
+      transform: translateY(180%);
+      visibility: hidden;
+      border:1px solid rgba(255, 255, 255, 0.18);
+      box-shadow: 0px 0px 10px rgba(28, 17, 187, 0.507);
+}
+.examschedule.show{
+    transform: translateY(0);
+    visibility: visible;
+}
+.examschedule.fullview{
+    position: absolute;
+    height: 68.4vh;
+    width: 81vw;
+    border-radius: 4vh;
+    border: 1px solid whitesmoke;
+    background: none;
+    border-radius: 4vh;
+    visibility: visible;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0px 0px 10px rgba(28, 17, 187, 0.507);
+    transition: 900ms;
+    position: absolute;
+    left: 1%;
+    right: 1%;
+    top: 10px;
+}
+.examschedulehead{
+    background: none;
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: 'Montserrat';
+    position: absolute;
+    left: 36%;
+    top: 10px;
+}
+#expandexamschedule{
+    position: absolute;
+    left: 85%;
+    top: 89%;
+    font-size: 2vh;
+    color: whitesmoke;
+    background-color: none;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    cursor: pointer;
+    border-radius: 1.5vh;
+    padding: 0.8vh;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    transition: none;
+    font-family:'Montserrat';
+}
+#closeexamschedule{
+    position: absolute;
+    left: 45%;
+    top: 90%;
+    font-size: 2vh;
+    color: whitesmoke;
+    background-color: none;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    cursor: pointer;
+    border-radius: 1.5vh;
+    padding: 0.8vh;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: none;
+    font-family:'Montserrat';
+    letter-spacing: 1px;
+}
+
+.parentdetails{
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0px 0px 10px rgba(28, 17, 187, 0.507);
+    width: 70%;
+    height: 38%;
+    border-radius: 20px;
+    background: none;
+    visibility: hidden;
+    transform: translateY(285%);
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+.parentdetails.show{
+    transform: translateY(0);
+    visibility:visible;
+}
+.parentdetails.fullview{
+    position: absolute;
+    height: 68.4vh;
+    width: 81.3vw;
+    border-radius: 4vh;
+    border: 1px solid whitesmoke;
+    background: none;
+    border-radius: 4vh;
+    visibility: visible;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0px 0px 10px rgba(28, 17, 187, 0.507);
+    transition: 900ms;
+    position: absolute;
+    left: 1%;
+    right: 1%;
+    top: 10px;
+}
+#expandparentdetails{
+    position: absolute;
+    left: 94%;
+    top: 73%;
+    font-size: 2vh;
+    color: whitesmoke;
+    background-color: none;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    cursor: pointer;
+    border-radius: 1.5vh;
+    padding: 0.8vh;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: none;
+    font-family:'Montserrat';
+}
+#closeparentdetails{
+    position: absolute;
+    left: 45%;
+    top: 90%;
+    font-size: 2vh;
+    color: whitesmoke;
+    background-color: none;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    cursor: pointer;
+    border-radius: 1.5vh;
+    padding: 0.8vh;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: none;
+    font-family:'Montserrat';
+    letter-spacing: 1px;
+}
+.headforparentdetails{
+    background: none;
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: 'Montserrat';
+    position: absolute;
+    left: 45%;
+}
+.subscriptiondetails{
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0px 0px 10px rgba(28, 17, 187, 0.507);
+    background: none;
+    border-radius: 20px;
+    visibility: hidden;
+    transform: translateY(300%);
+    position: absolute;
+    top: 40.4%;
+    left: 5px;
+    width: 70%;
+    height: 28%;
+}
+.subscriptiondetails.show{
+    transform: translateY(0);
+    visibility: visible;
+}
+.subscriptiondetails.fullview{
+    position: absolute;
+    height: 68.4vh;
+    width: 81.3vw;
+    border-radius: 4vh;
+    border: 1px solid whitesmoke;
+    background: none;
+    border-radius: 4vh;
+    visibility: visible;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0px 0px 10px rgba(28, 17, 187, 0.507);
+    transition: 900ms;
+    position: absolute;
+    left: 1%;
+    right: 1%;
+    top: 10px;
+}
+#expandsubscriptiondetails{
+    position: absolute;
+    left: 94%;
+    top: 64%;
+    font-size: 2vh;
+    color: whitesmoke;
+    background-color: none;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    cursor: pointer;
+    border-radius: 1.5vh;
+    padding: 0.8vh;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    transition: none;
+    font-family:'Montserrat';
+}
+#closesubscriptiondetails{
+    position: absolute;
+    left: 45%;
+    top: 90%;
+    font-size: 2vh;
+    color: whitesmoke;
+    background-color: none;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    cursor: pointer;
+    border-radius: 1.5vh;
+    padding: 0.8vh;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: none;
+    font-family:'Montserrat';
+    letter-spacing: 1px;
+}
+.headforsubcription{
+
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: 'Montserrat';
+    background: none;
+    position: absolute;
+    left: 43%;
+
+}
+.paymenthistory{
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0px 0px 10px rgba(28, 17, 187, 0.507);
+    background: none;
+    border-radius: 20px;
+    left: 5px;
+    height: 28%;
+    visibility: hidden;
+    transform: translateY(330%);
+    position: absolute;
+    top: 70%;
+    width: 70%;
+ 
+}
+.paymenthistory.fullview{
+    position: absolute;
+    height: 68.4vh;
+    width: 81.3vw;
+    border-radius: 4vh;
+    border: 1px solid whitesmoke;
+    background: none;
+    border-radius: 4vh;
+    visibility: visible;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0px 0px 10px rgba(28, 17, 187, 0.507);
+    transition: 900ms;
+    position: absolute;
+    left: 1%;
+    right: 1%;
+    top: 10px;
+}
+.paymenthistory.show{
+    transform: translateY(0);
+    visibility: visible;
+}
+.headforpaymenthistory{
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: 'Montserrat';
+    background: none;
+    position: absolute;
+    left: 46%;
+    
+}
+#expandpaymenthistory{
+    position: absolute;
+    left: 94%;
+    top: 63%;
+    font-size: 2vh;
+    color: whitesmoke;
+    background-color: none;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    cursor: pointer;
+    border-radius: 1.5vh;
+    padding: 0.8vh;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    transition: none;
+    font-family:'Montserrat';
+}
+#closepaymenthistory{
+    position: absolute;
+    left: 45%;
+    top: 90%;
+    font-size: 2vh;
+    color: whitesmoke;
+    background-color: none;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    cursor: pointer;
+    border-radius: 1.5vh;
+    padding: 0.8vh;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: none;
+    font-family:'Montserrat';
+    letter-spacing: 1px;
+}
+.profiledetails{
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0px 0px 10px rgba(28, 17, 187, 0.507);
+    background: none;
+    width: 28.5%;
+    height: 98%;
+    border-radius: 20px;
+    visibility: hidden;
+    transform: translateY(270%);
+    position: absolute;
+    left: 71%;
+    top: 1%;
+}
+.profiledetails.show{
+    transform: translateY(0);
+    visibility: visible;
+}
+.profiledetails.fullview{
+    position: absolute;
+    height: 68.4vh;
+    width: 81.3vw;
+    border-radius: 4vh;
+    border: 1px solid whitesmoke;
+    background: none;
+    border-radius: 4vh;
+    visibility: visible;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0px 0px 10px rgba(28, 17, 187, 0.507);
+    transition: 900ms;
+    position: absolute;
+    left: 1%;
+    right: 1%;
+    top: 10px;
+}
+.atagforprfile{
+    font-size: 4%;
+    position: absolute;
+    top: 540px;
+    left:54px;
+    background: none;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.profileicon{
+    width: 52px;
+    background: none;
+}
+#expandprofiledetails{
+    position: absolute;
+    left: 86%;
+    top: 89%;
+    font-size: 2vh;
+    color: whitesmoke;
+    background-color: none;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    cursor: pointer;
+    border-radius: 1.5vh;
+    padding: 0.8vh;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    transition: none;
+    font-family:'Montserrat';
+}
+#closeprofiledetails{
+    position: absolute;
+    left: 45%;
+    top: 90%;
+    font-size: 2vh;
+    color: whitesmoke;
+    background-color: none;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    cursor: pointer;
+    border-radius: 1.5vh;
+    padding: 0.8vh;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    transition: none;
+    font-family:'Montserrat';
+    letter-spacing: 1px;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow-y: hidden; 
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
