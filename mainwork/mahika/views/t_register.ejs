@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration</title>
+        <link rel="stylesheet" href="/stylesheets/t_registration.css">
+</head>
+<body>
+
+    <div id="div1">
+        <h1 id="fnt">Register here!</h1>
+        <ul>
+            <li id="list active">
+                <a href="#sd">
+                    <span id="icon"></span>
+                    <button id="title">Teacher Details</button>
+                </a>
+            <li>
+                <a href="#cd">
+                    <span id="icon1"></span>
+                    <button id="title1">Contact Details</button>
+                </a>
+            <li>
+                <a href="#ed">
+                    <span id="icon2"></span>
+                    <button id="title2">Education Details</button>
+                </a>
+            <li>
+                <a href="#dp">
+                    <span id="icon3"></span>
+                    <button id="title3">Subscription/Freetrail</button>
+                </a>
+            </li>
+            <li>
+               <a href="#bp">
+                   <span id="icon3"></span>
+                   <button id="title3">Bank details</button>
+               </a>
+           </li>
+            </li>
+            </li>
+            </li>
+            </li>
+        </ul>
+    </div>
+    <div id="sd" >
+        <label for="text" id="hd">Teacher Details</label>
+        <label for="text" id="nam">Name:</label>
+        <label for="text" id="em">Email:</label>
+        <label for="text" id="ag1">Age:</label>
+        <input type="text"id="nm" placeholder="Firstname" >
+        <input type="text" id="sn" placeholder="Lastname" >
+        <input type="email" placeholder="Email@example.com" id="emf">
+        <input type="number" placeholder="Age" id="ag" min="1" max="100">
+        <div class="container">
+          <div class="wrapper">
+             <div class="image">
+                <img id="output2" src="uploadpng.png" alt="Upload image here" id="custom-btn" >
+             </div>
+             <div class="content">
+                <div class="icon">
+                   <i class="fas fa-cloud-upload-alt"></i>
+                </div>
+             </div>
+             <div id="cancel-btn">
+                <i class="fas fa-times"></i>
+             </div>
+             <div class="file-name">
+                File name here
+             </div>
+          </div>
+          <button onclick="document.getElementById('default-btn').click()" id="custom-btn">Select your avatar</button>
+          <input id="default-btn" type="file" accept="image/*" onchange="loadFile2(event)" hidden>
+       </div>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="cd">
+        <label for="text" id="hd">Contact Details</label>
+        <label for="text" id="nam">Address:</label>
+        <label for="text" id="em">Email:</label>
+        <label for="tel" id="mn1">Phno:</label>
+        <input type="text"id="ad" placeholder="City/Town/Village">
+        <input type="text"id="da" placeholder="Address/Street/Doorno">
+        <input type="email" placeholder="Email@example.com" id="emf">
+        <input type="tel" pattern="[0-9]{10}" id="mn" placeholder="Mobileno" maxlength="10" size="10">
+        <div class="container">
+            <div class="wrapper">
+               <div class="image">
+                  <img id="output1" src="uploadpng.png" alt="Upload image here" >
+               </div>
+               <div class="content">
+                  <div class="icon">
+                     <i class="fas fa-cloud-upload-alt"></i>
+                  </div>
+               </div>
+               <div id="cancel-btn">
+                  <i class="fas fa-times"></i>
+               </div>
+               <div class="file-name">
+                  File name here
+               </div>
+            </div>
+            <button onclick="document.getElementById('default-btn1').click()" id="custom-btn">Select your avatar</button>
+            <input id="default-btn1" type="file" accept="image/*" onchange="loadFile1(event)" hidden>
+         </div>
+
+    </div>
+    <br>
+    <div id="ed">
+        <label for="text" id="hd">Education Details</label>
+        <label for="text" id="nam">SchoolDetails:</label>
+        <label for="text" id="em">Studying:</label>
+        <label for="text" id="ii">Idinfo:</label>
+        <input type="text"id="sc" placeholder="School/Collage">
+        <input type="text"id="sa" placeholder="Schooladdress">
+        <input type="email" placeholder="Class/Profesonaldeg" id="emf">
+        <input type="text" id="rn" placeholder="Name as per idcard">
+        <input type="text" id="regn" placeholder="Regno as per idcard">
+        <input type="text" id="rno" placeholder="Rollnumber">
+        <div class="container">
+            <div class="wrapper">
+               <div class="image">
+                  <img id="output" src="uploadpng.png" alt="Upload image here" >
+               </div>
+               <div class="content">
+                  <div class="icon">
+                     <i class="fas fa-cloud-upload-alt"></i>
+                  </div>
+               </div>
+               <div id="cancel-btn">
+                  <i class="fas fa-times"></i>
+               </div>
+               <div class="file-name">
+                  File name here
+               </div>
+            </div>
+            <button onclick="document.getElementById('default-btn2').click()" id="custom-btn">Select your avatar</button>
+            <input id="default-btn2" type="file" accept="image/*" onchange="loadFile(event)" hidden>
+         </div>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="dp"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="ft"></div>
+
+</body>
+</html>
